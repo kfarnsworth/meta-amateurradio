@@ -12,6 +12,8 @@ SRCREV = "1cf5a539a21414ff509ff7d0eedfc5fa8edb90c6"
 SRC_URI = "git://github.com/pothosware/SoapySDR.git;protocol=https;branch=master \
           "
 
-S = "${WORKDIR}/git"
+EXTRA_OECMAKE = "-DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+                 -DCMAKE_BUILD_TYPE=Release \
+                "
 
 inherit cmake
