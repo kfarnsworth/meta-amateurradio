@@ -13,9 +13,6 @@ SRC_URI = "git://github.com/simonyiszk/csdr.git;protocol=https;branch=master \
           "
 
 SRCREV = "6ef2a74206887155290a54c7117636f66742f858"
-S = "${WORKDIR}/git"
-
-inherit autotools-brokensep
 
 DEPENDS = "fftw"
 RDEPENDS:${PN} = "bash"

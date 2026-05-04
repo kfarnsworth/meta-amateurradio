@@ -13,10 +13,8 @@ SRCREV = "f920d9bf10f62f67c8e31b7dc25090bc784e5210"
 SRC_URI = "git://github.com/pothosware/SoapyRemote.git;protocol=https;branch=master \
           "
 
-S = "${WORKDIR}/git"
-
 inherit cmake
-
+EXTRA_OECMAKE = "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
 DEPENDS = "soapysdr avahi"
 RDEPENDS:${PN} = "soapysdr libavahi-client avahi-daemon"
 
