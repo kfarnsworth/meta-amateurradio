@@ -6,7 +6,7 @@ peripheral."
 
 HOMEPAGE = "https://github.com/pothosware/SoapyRemote/wiki"
 
-LICENSE = "BSL-1.0 & MIT & Python-2.0"
+LICENSE = "BSL-1.0 AND MIT AND Python-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE_1_0.txt;md5=e4224ccaecb14d942c71d31bef20d78c"
 
 SRCREV = "f920d9bf10f62f67c8e31b7dc25090bc784e5210"
